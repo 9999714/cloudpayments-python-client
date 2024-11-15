@@ -9,7 +9,7 @@ from .utils import format_date, format_datetime
 
 
 class CloudPayments(object):
-    URL = 'https://api.cloudpayments.ru/'
+    URL = 'https://api.tiptoppay.kz/'
 
     def __init__(self, public_id, api_secret):
         self.public_id = public_id
